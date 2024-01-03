@@ -7,6 +7,7 @@ let operationval ='';
 let screenval = '';
 
 console.log(operationval)
+console.log(screenval)
 for (items of buttons) {
     items.addEventListener('click' , (e) =>{
         buttontext = e.target.innerText;
