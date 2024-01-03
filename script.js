@@ -6,7 +6,7 @@ let operations = document.querySelectorAll('[operation]')
 let operationval ='';
 let screenval = '';
 
-
+console.log(screenval)
 for (items of buttons) {
     items.addEventListener('click' , (e) =>{
         buttontext = e.target.innerText;
